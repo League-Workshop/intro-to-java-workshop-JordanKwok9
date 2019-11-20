@@ -18,7 +18,7 @@ public class Spiral {
 			// 6. Move the robot 5 times the loop counter (5*i)
 		joe.move(5*i);	
 			// 2. Turn the robot 360/7 degrees to the right
-		joe.turn(360);
+		joe.turn(360/7);
 			// 8. Set the pen width to i
 		joe.setPenWidth(i);}
 	}
